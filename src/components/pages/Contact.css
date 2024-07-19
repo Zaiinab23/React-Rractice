@@ -1,0 +1,24 @@
+.contact-page-maindiv{
+    padding-top: 90px;
+    display: grid;
+    grid-template-rows: 150px 200px;
+
+}
+
+.contact-cardsdiv{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-self: center;
+    column-gap: 80px;
+}
+
+.title{
+    text-align: center;
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: 30px;
+    color: rgb(16, 28, 90);
+}

@@ -1,0 +1,12 @@
+.pleaseH{
+    padding-top: 70px;
+}
+.card-collection{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    column-gap: 5px;
+}

@@ -1,0 +1,31 @@
+.navbar-container{
+    display: grid;
+    grid-template-columns: 70% 8% 10% 10%;
+    background-color: rgb(16, 28, 90);
+    position: fixed;
+    left: 0px;
+    top:0px;
+    width: 100%;
+    align-items: center; 
+    justify-items: center;
+
+}
+.navbar-title{
+    text-decoration: none;
+    color:antiquewhite;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: 35px;
+    padding: 1%;
+    padding-left: 50px;
+    justify-self: left;
+}
+.navbar-links{
+    text-decoration: none;
+    color:antiquewhite;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+}

@@ -1,0 +1,46 @@
+.card-container{
+    display: grid;
+    grid-template-rows: 180px 160px;
+    width: 275px;
+    border-style: solid;
+    border-color: rgb(16, 28, 90);
+    padding: 0.5%;
+    margin-left:20px;
+    
+}
+
+.card-content{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title{
+    color:rgb(16, 28, 90);
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px 0px 12px 0px;
+}
+
+.card-text{
+    color:rgb(16, 28, 90);
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.card-image{
+    width: 275px;
+    height: 180px;
+    object-fit: contain;
+}
